@@ -1880,18 +1880,34 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
-/* 浅色背景 */
+/* 强制生效的深色风格 */
 body {
-  background-color: #f0f8ff;
-  color: #333333;
+  background-color: #121212 !important;
+  color: #ffffff !important;
 }
 
-/* 淡蓝色侧边栏 */
+/* 强制修改侧边栏背景 */
 .sidebar {
-  background-color: #e3f2fd;
+  background-color: #1e1e1e !important;
+  color: #ffffff !important;
 }
 
-/* 粉色头像边框 */
+/* 强制修改文字颜色 */
+.sidebar-info .name {
+  color: #ffffff !important;
+}
+
+.sidebar-info .title {
+  color: #bbbbbb !important;
+}
+
+/* 强制修改头像边框 */
 .avatar-box {
-  border-color: #ff80ab;
+  border-color: #00adb5 !important;
+  border-radius: 12px !important;
+}
+
+/* 强制修改内容区域背景 */
+.main-content {
+  background-color: #121212 !important;
 }
