@@ -1880,3 +1880,18 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+/* 浅色背景 */
+body {
+  background-color: #f0f8ff;
+  color: #333333;
+}
+
+/* 淡蓝色侧边栏 */
+.sidebar {
+  background-color: #e3f2fd;
+}
+
+/* 粉色头像边框 */
+.avatar-box {
+  border-color: #ff80ab;
+}
